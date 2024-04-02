@@ -1,0 +1,60 @@
+$yellow: rgba(244, 207, 0, 1);
+$blue: rgba(49, 54, 115, 1);
+$yellow_low: rgba(255, 240, 89, 1);
+$blue_low: rgba(52, 131, 250, 1);
+$white: rgba(255, 255, 255, 1);
+$black: rgba(0, 0, 0, 1);
+$gray_one: rgba(51, 51, 51, 1);
+$gray_tow: rgba(102, 102, 102, 1);
+$gray_three: rgba(237, 237, 237, 1);
+
+h1,
+h2,
+h3 {
+  letter-spacing: 0.01em;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 5.6rem;
+  line-height: 71px;
+}
+
+h2 {
+  font-size: 4.6rem;
+  line-height: 58px;
+}
+
+h3 {
+  font-size: 3.6rem;
+  line-height: 45px;
+}
+
+h4 {
+  font-weight: normal;
+  font-size: 2.6rem;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+}
+
+p {
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 25px;
+  letter-spacing: 0.01em;
+}
+
+a,
+button {
+  font-weight: 600;
+  font-size: 2.2rem;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+}
+
+@mixin responsivo($maxwidth) {
+  @media (max-width: $maxwidth) {
+    @content;
+  }
+}

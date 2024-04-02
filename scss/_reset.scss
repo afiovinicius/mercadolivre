@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: none;
+  outline: 0;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  font-family: "Sora", sans-serif;
+}
+
+html {
+  font-size: 62%;
+  scroll-behavior: smooth;
+  background-color: #151515;
+}
+
+.container {
+  width: 100%;
+  max-width: 1368px;
+  padding: 0rem 11.8rem;
+}
+
+img {
+  width: 100%;
+}
